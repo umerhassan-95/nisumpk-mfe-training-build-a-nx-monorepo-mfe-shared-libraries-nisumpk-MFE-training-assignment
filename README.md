@@ -796,7 +796,7 @@ You should understand:
 
 ## 📅 Deadline
 
-Please submit your GitHub repo link by: 12 - August - 2026
+Please submit your GitHub repo link by: 28 - August - 2026
 
 ---
 
