@@ -1,0 +1,28 @@
+{
+  "name": "shell",
+  "sourceRoot": "apps/shell/src",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "vite --host 0.0.0.0 --port 4173",
+        "cwd": "apps/shell"
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "outputs": ["{workspaceRoot}/apps/shell/dist"],
+      "options": {
+        "command": "vite build",
+        "cwd": "apps/shell"
+      }
+    },
+    "test": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "vitest run",
+        "cwd": "apps/shell"
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f7f7f7;
+}
+
+.shell-app {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 32px;
+}
+
+.error-box {
+  padding: 16px;
+  border: 1px solid #cc0000;
+  background: #fff4f4;
+}
